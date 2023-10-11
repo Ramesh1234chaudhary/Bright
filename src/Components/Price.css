@@ -1,0 +1,83 @@
+.price{
+    width: 100%;
+    height: 700px;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.price-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-price{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+      background-color:  #EAEAEA;
+      
+      height: 50px;
+      width: 80%;
+}
+.price-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.pricing{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 45%;
+     height: 120px;
+     background-color: #26235C;
+     margin-left: 600px;
+
+}
+.pricing-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.pricing-main{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.main-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 400px;
+    
+}
+.buttontwo button {
+    margin-left: 70px;
+    background-color: #0074D9; /* Background color (you can change this) */
+    color: #FFFFFF; /* Text color (you can change this) */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none; /* Remove the button border */
+    border-radius: 20px; /* Add rounded corners if desired */
+    cursor: pointer; /* Show a pointer cursor on hover */
+  }
+
+  /* Add additional styles for button hover and focus states if needed */
+  .buttontwo button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+
+  /* Add focus styles (for keyboard navigation) */
+  .buttontwo button:focus {
+    outline: none; /* Remove the default focus outline */
+    box-shadow: 0 0 5px #0074D9; /* Add a subtle box shadow on focus */
+  }

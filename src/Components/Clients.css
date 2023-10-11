@@ -1,0 +1,29 @@
+.clients{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    height:370px;
+    background-color: #FAFAFA;
+}
+.clients-heading{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.containercard{
+    margin: 20px;
+    padding-top: 20px;
+    padding-left: 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+.cardstyle{
+    width: 250px;
+    padding:10px;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+}

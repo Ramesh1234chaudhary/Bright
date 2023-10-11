@@ -1,0 +1,137 @@
+.hero{
+    display: flex;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin-top: 50px;
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 354px;
+}
+.hero-left p{
+    color:#323645;
+    margin-left: 110px;
+    line-height: 1.5rem;
+    margin-top: 10px;
+}
+.hero-left h1{
+    margin-left: 110px;
+    color: #323645;
+    font-size: 37px;
+    font-weight: 900;
+}
+.hero-left h3{
+    margin-left: 110px; 
+    color: #323645;
+    font-size: 25px;
+}
+.button {
+    margin-top: 10px;
+    margin-left: 110px; 
+    width: 97px;
+    height: 24px;
+}
+
+.button button{
+    background-color: #229cd7;
+    width: 180px;
+    height: 60px;
+    border-radius: 30px;
+    color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    border: 1px solid #229cd7 ;
+}
+.hero-right{
+   width: 50%;
+   height: auto;
+   position: relative;
+   padding-left: 20px;
+   
+}
+.hero-right{
+    position: relative;
+  
+}
+.divimg{
+    height: 80%;
+    width: 60%;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    z-index: 100;
+}
+.divimg img{
+    height: 100%;
+    width: 100%;
+}
+.divimg1{
+    height: 65%;
+    width: 30%;
+    position: absolute;
+    bottom: -25%;
+    right: 9%;
+    z-index: 101;
+}
+.divimg1 img{
+    height: 100%;
+    width: 100%;
+}
+.divimg2{
+    height: 30%;
+    width: 20%;
+    position: absolute;
+    top: 1%;
+    right: 10%;
+    z-index: 99;
+}
+.divimg2 img{
+    height: 100%;
+    width: 100%;
+}
+.divimg3{
+    height: 40%;
+    width: 20%;
+    position: absolute;
+    bottom: -15%;
+    left: 5%;
+    z-index: 101;
+}
+.divimg3 img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.divimg4{
+    height: 14%;
+    width: 10%;
+    position: absolute;
+    top: 56%;
+    right: 8%;
+    z-index: 101;
+}
+
+.divimg4 img{
+    height: 100%;
+    width: 100%;
+}
+.divimg5{
+    height: 30%;
+    width: 20%;
+    position: absolute;
+    top: 35%;
+    left: 3%;
+    z-index: 101;
+}
+.divimg5 img{
+    height: 100%;
+    width: 100%;
+}
+  
+  

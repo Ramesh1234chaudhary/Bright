@@ -1,0 +1,47 @@
+.review{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 500px;
+    background-color: #229CD7;
+}
+
+.revie-heading{
+  display: flex;
+  flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 30px;
+}
+.reviewcard{
+    margin: 20px;
+    padding-top: 20px; 
+     margin-left: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 5px;
+}
+.reviewstyle{
+     
+    width: 500px;
+    padding:10px;
+    padding-top: 30px;
+    height: 300px;
+    background-color: #ffff;
+     display: flex;
+     flex-direction: column;
+    
+    box-shadow: 0 0 10px black;
+    
+}
+.reviewstyle h6{
+ padding: 30px 30px;
+ padding-top: 30px;
+}
+.horizontal-line {
+    width:85%;
+    border-top: 1px solid #CFD8DC; /* Change the color as needed */
+    margin: 5px 0; /* Adjust the margin as needed */
+    margin-left: 30px;
+  }
+  
